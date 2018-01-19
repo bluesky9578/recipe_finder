@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Document</title>
+  
+
+ </head>
+ <body>
+	<strong>Recipe</strong><br><br>
+  Ingredient : {{ ingredient }}<br><br>
+  Recipe<br>
+  <ul id="navigation">
+          {% for i in tmprecipe %}
+          <li><pre>{{i}}</pre></li>
+          {% endfor %}
+     <ul>
+	
+  <button type="button" onclick="location.href='/'">돌아가기</button>
+ </body>
+</html>
